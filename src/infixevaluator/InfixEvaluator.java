@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package infixevaluator;
 
 import java.awt.GridBagConstraints;
@@ -26,7 +22,6 @@ public class InfixEvaluator extends JFrame{
     
     private int expressionValue;
     
-    
 
     //Create buttons and fields
     private JLabel jLabelExpression = new JLabel("Enter Infix Expression");
@@ -36,7 +31,7 @@ public class InfixEvaluator extends JFrame{
     private JTextField textResult = new JTextField();
 
 
-    
+    //GUI Constructor
     public InfixEvaluator(){
         super ("Infix Expression Evaluator");
         setLayout(new GridBagLayout());
