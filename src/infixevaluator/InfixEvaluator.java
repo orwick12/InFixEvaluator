@@ -17,7 +17,7 @@ Purpose: Disassemble and solve arithmetic infix equations.
  */
 public class InfixEvaluator extends JFrame{
     
-        //Establish variables and pre-loaded values
+    //Establish variables and pre-loaded values
     private static final int WINDOWWIDTH = 400, WINDOWHEIGHT = 250;
     
     private int expressionValue;
@@ -59,7 +59,7 @@ public class InfixEvaluator extends JFrame{
         textResult.setPreferredSize(new Dimension(100, 10));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
-        /*
+        /* Commented out a diff gui
         super ("Infix Expression Evaluator");
         setSize(WINDOWWIDTH, WINDOWHEIGHT);
         setLocationRelativeTo(null);
