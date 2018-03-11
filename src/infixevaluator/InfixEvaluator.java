@@ -12,9 +12,10 @@ import infixevaluator.InfixStacks;
 /*
 File: InfixEvaluator.java
 Author: Brian Orwick
-Date: 3/9/918
+Date: 3/9/18
 Purpose: Disassemble and solve arithmetic infix equations.
  */
+
 public class InfixEvaluator extends JFrame{
     
     //Establish variables and pre-loaded values
@@ -100,7 +101,7 @@ public class InfixEvaluator extends JFrame{
         
         @Override
         public void actionPerformed(ActionEvent event) {          
-            setExpressionValue();
+            getExpressionValue();
         }
     }
     
@@ -113,6 +114,8 @@ public class InfixEvaluator extends JFrame{
         public void display() {
         setVisible(true);
     }
+        
+
 
     public static void main(String[] args) {
         
